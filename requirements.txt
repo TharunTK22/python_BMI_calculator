@@ -1,0 +1,15 @@
+This file lists the Python libraries that your project needs to run. Someone can easily install all of them using the command pip install -r requirements.txt.
+
+For the advanced version of the BMI calculator, this file should contain:
+
+Plaintext
+
+pandas
+matplotlib
+(Note: The beginner version does not require any external libraries, so this file would be empty for that version.)
+
+
+
+Required Libraries: Open your terminal or command prompt and install the libraries the script needs:
+
+pip install pandas matplotlib

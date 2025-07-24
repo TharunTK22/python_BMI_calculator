@@ -1,0 +1,22 @@
+This is a very important file that tells Git which files or folders it should ignore. You don't want to upload user data, Python's temporary cache files, or system-specific files to your repository.
+
+Create a file named .gitignore (make sure it starts with a period) and add the following content:
+
+Plaintext
+
+# Python cache
+__pycache__/
+
+# User-generated data file
+bmi_data.csv
+
+# Virtual Environment folders
+venv/
+.venv/
+env/
+.env/
+
+# System-specific files (macOS and Windows)
+.DS_Store
+Thumbs.db
+Adding these files to your project folder before you run git add . and git commit is a great habit to get into!
